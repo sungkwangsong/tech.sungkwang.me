@@ -1,6 +1,5 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 3.7.4"
-gem "github-pages", '183', group: :jekyll_plugins
+gem "github-pages", '192', group: :jekyll_plugins
 
 # # Hello! This is where you manage which Jekyll version is used to run.
 # # When you want to use a different version, change it below, save the
