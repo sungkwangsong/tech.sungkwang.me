@@ -38,17 +38,15 @@
   {% else %}
     <meta property="og:image" content="{{ site.home_url }}{{ site.representing_image }}">
   {% endif %}
-  <meta property="fb:app_id" content="{{ site.facebook.app_id}}" />
-  <meta property="fb:admins" content="{{ site.facebook.user_id}}"/>
-
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120131969-2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google.analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-120131969-2');
+  gtag('config', '{{ site.google.analytics }}');
 </script>
 
   <script>
