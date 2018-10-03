@@ -38,25 +38,40 @@
   {% else %}
     <meta property="og:image" content="{{ site.home_url }}{{ site.representing_image }}">
   {% endif %}
+  <meta property="fb:app_id" content="{{ site.facebook.app_id}}" />
+  <meta property="fb:admins" content="{{ site.facebook.user_id}}"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120131969-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120131969-2');
+</script>
+
   <script>
-    // window.WebFontConfig = {
-    //     custom: {
-    //         families: ['spoqahansans:100,400,700'],
-    //         urls: ['/css/spoqahansans.css']
-    //     },
-    //     timeout: 60000
-    // };
-    // (function(d) {
-    //     var wf = d.createElement('script'), s = d.scripts[0];
-    //     wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-    //     s.parentNode.insertBefore(wf, s);
-    // })(document);
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{site.google.analytics}}', 'auto');
-    ga('send', 'pageview');
+    window.WebFontConfig = {
+        custom: {
+            // families: ['spoqahansans:100,400,700'],
+            // urls: ['/css/spoqahansans.css']
+            families: ['Spoqa Han Sans:100,300, 400,700'],
+            urls: ['https://d24uop4wk69tt0.cloudfront.net/css/SpoqaHanSans-kr.css']
+        },
+        timeout: 60000
+    };
+    (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+    })(document);
+    // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    //     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    //   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    // ga('create', '{{site.google.analytics}}', 'auto');
+    // ga('send', 'pageview');
   </script>
   <link rel="stylesheet" href="/css/styles.css">
   <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ sitle.title }}">

@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId={{site.facebook.appId}}";
+      js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId={{site.facebook.app_id}}";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 });

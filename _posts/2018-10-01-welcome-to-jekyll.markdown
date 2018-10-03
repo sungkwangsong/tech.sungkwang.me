@@ -1,11 +1,11 @@
 ---
 layout: entry
-title:  "Welcome to Jekyll!"
+title:  다시 블로그, 다시 Github Pages 로
 date:   2018-10-01 04:22:46 +0900
-categories: jekyll 
+categories: story 
 author: 송성광
 author-email: tech@sungkwang.me
-description: 블로그 오픈
+description: blog.saltfactory.net 으로 운영하던 기술블로그를 tech.sungkwang.me 로 이전하여 기술블로그를 새롭게 시작하게 되었습니다.
 publish: true
 permalink: /open-blog-on-github
 ---

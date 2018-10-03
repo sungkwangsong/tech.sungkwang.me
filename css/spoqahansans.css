@@ -15,3 +15,41 @@
   src: url('https://s3-ap-northeast-1.amazonaws.com/spoqa-techblog/fonts/SpoqaHanSans-Thin_subset.woff') format('woff');
   font-weight: 100;
 } */
+
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 700;
+  src: local('Spoqa Han Sans Bold'), local('Spoqa Han Sans Bold'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Bold.woff2') format('woff2'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Bold.woff') format('woff'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 400;
+  src: local('Spoqa Han Sans Regular'), local('Spoqa Han Sans Regular'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Regular.woff2') format('woff2'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Regular.woff') format('woff'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 300;
+  src: local('Spoqa Han Sans Light'), local('Spoqa Han Sans Light'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Light.woff2') format('woff2'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Light.woff') format('woff'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 100;
+  src: local('Spoqa Han Sans Thin'), local('Spoqa Han Sans Thin'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Thin.woff2') format('woff2'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Thin.woff') format('woff'),
+  url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Thin.ttf') format('truetype');
+}
+

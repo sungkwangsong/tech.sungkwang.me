@@ -35,6 +35,12 @@ sass:
     sass_dir: css
 
 trawler_mode: true
+facebook:
+  app_id: 179837106054164
+  user_id: 10201849650442666
+google:
+  analytics: UA-120131969-2
+
 
 
 # Exclude from processing.
