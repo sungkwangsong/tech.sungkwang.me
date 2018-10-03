@@ -1,3 +1,5 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
 /* @font-face {
   font-family: 'spoqahansans';
   src: url('https://s3-ap-northeast-1.amazonaws.com/spoqa-techblog/fonts/SpoqaHanSans-Bold_subset.woff') format('woff');
@@ -16,7 +18,7 @@
   font-weight: 100;
 } */
 
-
+/* 
 @font-face {
   font-family: 'Spoqa Han Sans';
   font-weight: 700;
@@ -52,4 +54,4 @@
   url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Thin.woff') format('woff'),
   url('https://d24uop4wk69tt0.cloudfront.net/SpoqaHanSans-Thin.ttf') format('truetype');
 }
-
+ */
