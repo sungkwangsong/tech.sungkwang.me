@@ -113,3 +113,21 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .tex .hljs-formula {
   background: #eee8d5;
 }
+
+@media only screen and (max-width: 580px){
+  pre.highlight {
+    padding: 0;
+    width: 100%;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .hljs {
+    padding:20px 0;
+    width: 90%;    
+  }
+
+}
