@@ -50,7 +50,7 @@ https://medium.com/@sungkwangsong/hello-world.html
 
 ## 공지사항
 
-> blog.saltactory.net 이 tech.sungkwang.me 로 개편과 함께 블로그 주소가 변경되었습니다.
+> 새로운 블로그 오픈과 함께 [blog.saltactory.net](https://blog.saltfactory.net/) 블로그가  [tech.sungkwang.me](https://tech.sungkwang.me/) 로 변경되었습니다.
 
 지금까지 연구활동을 하면서 실명을 사용하지 않고 닉네임(alias)를 사용해왔는데 이젠 부모님께서 기도로 지어주신 본명을 사용해서 연구활동을 계속하기로 결심했다. 결심하게된 이유는 여러가지가 있지만 가장 나다운 삶을 살아가고 싶은 이유도 있다. 나의 아이텐티티를 가지고 말이다. 그래서 한달에 커피한잔 안먹고 [sungkwang.me](https://sungkwang.me/) 도메인을 구입했다. 그리고 기술블로그와 개인블로그를 따로 운영하기 위해서 기술블로그는 [tech.sungkwang.me](https://tech.sungkwang.me/)로 운영하기로 결심했다. 
 
